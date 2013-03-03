@@ -1,1 +1,0 @@
-NOTE: All the action is on gh-pages.

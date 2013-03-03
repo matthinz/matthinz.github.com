@@ -1,0 +1,37 @@
+---
+layout: default
+title: Matt Hinz
+---
+<a id="title" href="index.html">
+    <h1>Matt Hinz</h1>
+</a>
+
+<ul id="nav">
+    <li id="code">
+        <a href="http://github.com/matthinz">Code</a>
+    </li>
+    <li id="contact">
+        <a href="mailto:[my_first_name]@[my_full_name].com">Contact</a>
+    </li>
+    <li id="stackoverflow">
+        <a href="http://stackoverflow.com/users/2338/matt">
+            <img src="http://stackoverflow.com/users/flair/2338.png?theme=clean" alt="Stack Overflow Badge for Matt Hinz" />
+        </a>
+    </li>
+</ul>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function() {
+
+        $('#contact a').each(function() {
+
+            this.href = this.href.replace(/\[my_first_name\]/gi, 'matt');
+            this.href = this.href.replace(/\[my_full_name\]/gi, 'matthinz');
+
+        });
+
+    });
+
+</script>
