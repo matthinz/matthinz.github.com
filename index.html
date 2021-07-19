@@ -20,18 +20,14 @@ title: Matt Hinz
     </li>
 </ul>
 
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript">
 
-    $(document).ready(function() {
-
-        $('#contact a').each(function() {
-
-            this.href = this.href.replace(/\[my_first_name\]/gi, 'matt');
-            this.href = this.href.replace(/\[my_full_name\]/gi, 'matthinz');
-
-        });
-
-    });
+    [].slice.call(document.querySelectorAll('a')).forEach(
+        function(a) {
+            a.href = a.href
+                .replace(/\[my_first_name\]/gi, 'matt')
+                .replace(/\[my_full_name\]/gi, 'matthinz');
+        }
+    )
 
 </script>
