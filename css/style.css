@@ -7,83 +7,83 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 
 /* remember to define focus styles! */
 :focus {
-	outline: 0;
+    outline: 0;
 }
 
 /* remember to highlight inserts somehow! */
 ins {
-	text-decoration: none;
+    text-decoration: none;
 }
 del {
-	text-decoration: line-through;
+    text-decoration: line-through;
 }
 
 /* tables still need 'cellspacing="0"' in the markup */
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 html {
     background-color: #fff;
     background-size: 100% 1.2em;
-	font-family: Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 html, a {
-	color: #444;
+    color: #444;
 }
 
 #page {
-	max-width: 600px;
-	margin: 200px auto;
-	/*border: 1px solid Silver;*/
-	overflow: hidden;
-	padding: 0.5em;
+    max-width: 600px;
+    margin: 200px auto;
+    /*border: 1px solid Silver;*/
+    overflow: hidden;
+    padding: 0.5em;
 }
 
 
 #title {
-	display: block;
-	float: left;
+    display: block;
+    float: left;
 }
 
 #title h1 {
-	width: 250px;
-	height: 250px;
-	background: url('../images/matthinz.png') center center no-repeat;
-	overflow: hidden;
-	text-indent: -900000px;
-	font-size: 4.0em;
+    width: 250px;
+    height: 250px;
+    background: url('../images/matthinz.png') center center no-repeat;
+    overflow: hidden;
+    text-indent: -900000px;
+    font-size: 4.0em;
 }
 
 #nav {
-	float: right;
+    float: right;
 }
 
 #nav li {
@@ -129,7 +129,5 @@ html, a {
 }
 
 #nav #stackoverflow img {
-	margin-top: 18px;
+    margin-top: 18px;
 }
-
-
